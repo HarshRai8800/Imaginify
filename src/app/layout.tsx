@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono,IBM_Plex_Sans } from "next/font/google";
+import { Geist, IBM_Plex_Sans } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { ClerkProvider} from "@clerk/nextjs";
-import Sidebar from '@/components/shared/Sidebar'
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -31,7 +30,7 @@ export default function RootLayout({
       <body
         className={cn("font-IBMPlex antialiased",Ibm_Plex)} 
       >
-        {/* <Sidebar/> */}
+        
         {children}
       </body>
     </html>

@@ -5,8 +5,6 @@ import Link from 'next/link'
 import React from 'react'
 import {   Sheet,
     SheetContent,
-    SheetDescription,
-    SheetHeader,
     SheetTitle,
     SheetTrigger } from '../ui/sheet'
 import { navLinks } from '@/constants'
