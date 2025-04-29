@@ -1,4 +1,4 @@
-import { model, models, Schema } from "mongoose";
+import { Document, model, models, Schema } from "mongoose";
 
 export interface IImage extends Document {
     title: string;
@@ -16,7 +16,6 @@ export interface IImage extends Document {
     _id:string;
     firstname:string;
     lastname:string
-
     }
     createdAt: Date;
     updatedAt: Date;
